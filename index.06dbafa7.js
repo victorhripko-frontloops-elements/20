@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector(".accordion").querySelectorAll(".accordion__item");e.forEach((s=>{s.addEventListener("click",(()=>{s.classList.contains("is-open")?s.classList.remove("is-open"):(e.forEach((e=>e.classList.remove("is-open"))),s.classList.add("is-open"))}))}))})();
